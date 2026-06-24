@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  min-height: 100vh;
+
+  background:
+    url("https://cdn-icons-png.flaticon.com/512/3135/3135755.png") no-repeat 10% 25%,
+    url("https://cdn-icons-png.flaticon.com/512/2991/2991148.png") no-repeat 90% 25%,
+    url("https://cdn-icons-png.flaticon.com/512/1055/1055687.png") no-repeat 15% 85%,
+    url("https://cdn-icons-png.flaticon.com/512/2784/2784469.png") no-repeat 85% 85%,
+    linear-gradient(
+      135deg,
+      #0f172a,
+      #1e3a8a,
+      #2563eb
+    );
+
+  background-size:
+    120px,
+    120px,
+    120px,
+    120px,
+    cover;
+
+  color: white;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 80px;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.nav-links button {
+  margin-left: 15px;
+  padding: 12px 22px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.nav-links button:first-child {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+.nav-links button:last-child {
+  background: white;
+  color: #2563eb;
+}
+
+/* Hero */
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  height: 85vh;
+
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 65px;
+  max-width: 900px;
+  margin-bottom: 25px;
+}
+
+.hero p {
+  font-size: 22px;
+  max-width: 800px;
+  line-height: 1.8;
+  color: #dbeafe;
+  margin-bottom: 40px;
+}
+
+.hero-btn {
+  padding: 18px 40px;
+  border: none;
+  border-radius: 50px;
+  background: white;
+  color: #2563eb;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero-btn:hover {
+  transform: translateY(-5px);
+}
+
+/* Features */
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 80px;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  width: 300px;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(15px);
+
+  padding: 30px;
+  border-radius: 20px;
+
+  text-align: center;
+}
+
+.feature-card h2 {
+  margin-bottom: 15px;
+}
+
+.feature-card p {
+  color: #dbeafe;
+}
