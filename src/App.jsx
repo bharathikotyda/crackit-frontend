@@ -33,11 +33,11 @@ function Home() {
           and learn together with students from everywhere.
         </p>
 
-       <Link to="/register">
-  <button className="hero-btn">
-    Get Started
-  </button>
-</Link>
+        <Link to="/register">
+          <button className="hero-btn">
+            Get Started
+          </button>
+        </Link>
       </section>
     </div>
   );
@@ -47,18 +47,11 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-
       <Route path="/login" element={<Login />} />
-
       <Route path="/register" element={<Register />} />
-
       <Route path="/dashboard" element={<Dashboard />} />
-
       <Route path="/doubts" element={<Doubts />} />
-
       <Route path="/posts" element={<Posts />} />
-
-
       <Route path="/settings" element={<Settings />} />
     </Routes>
   );
