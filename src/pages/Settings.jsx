@@ -1,5 +1,4 @@
-import "../styles/Page.css";
-
+import "../styles/page.css";
 function Settings() {
   return (
     <div className="page-container">

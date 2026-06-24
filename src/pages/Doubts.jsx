@@ -1,4 +1,4 @@
-import "../styles/Page.css";
+import "../styles/page.css";
 
 function Doubts() {
   return (
