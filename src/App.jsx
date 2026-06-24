@@ -6,7 +6,6 @@ import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
 import Doubts from "./pages/Doubts";
 import Posts from "./pages/Posts";
-import Profile from "./pages/Profile";
 import Settings from "./pages/Settings";
 
 function Home() {
@@ -59,7 +58,6 @@ function App() {
 
       <Route path="/posts" element={<Posts />} />
 
-      <Route path="/profile" element={<Profile />} />
 
       <Route path="/settings" element={<Settings />} />
     </Routes>
